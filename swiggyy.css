@@ -225,24 +225,237 @@ border:1px solid white;
 
 .fooddelivery{
     width: 100%;
-    height: 200px;
+    height: 600px;
     font-family: sans-serif;
     font-size: 40px;
+    padding-left:350px;
+    padding-top: 80px;
+
+
+   
+
+
+    
 
 }
+.one{
+    padding-top: 40px;
+}
 
+.two{
+    padding-top: 80px;
+   
+}
+.third{
+    padding-top: 80px;
+}
 .onelyr{
- display: flex;
- justify-content: space-around;
- width: 1700px;
- height: 70px;
- gap:30px;
- border-radius: 20px;
-}
-
-.onelyr p{
-    font-family: sans-serif;
+ font-family: sans-serif;
     font-size: 20px;
     color: black;
+    background-color: white;
+width:320px;
+height:70px;
 
+
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+ 
+
+}
+
+.twolyr{
+     font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+width:320px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+}
+
+.thirdlyr{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    
+    color: black;
+    background-color: white;
+width:320px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+ 
+}
+
+.showmore{
+     font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(208, 51, 12);
+    background-color: white;
+    font-weight: bold;
+width:320px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+}
+
+
+
+.grocerydelivery{
+    width: 100%;
+    height: 600px;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-left:350px;
+   
+    padding-bottom: 10px;
+
+}
+.four{
+    padding-top: 40px;
+}
+
+.five{
+    padding-top: 80px;
+   
+}
+.six{
+    padding-top: 80px;
+}
+.fourlyr{
+ font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+width:360px;
+height:70px;
+
+
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+ 
+
+}
+
+.fivelyr{
+     font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+width:360px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+}
+
+.sixlyr{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    
+    color: black;
+    background-color: white;
+width:360px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+ 
+}
+
+.showmore{
+     font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(208, 51, 12);
+    background-color: white;
+    font-weight: bold;
+width:320px;
+height:70px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius: 10px;
+}
+
+
+
+.list{
+    width: full;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 20px;
+    font-family: sans-serif;
+    color: rgb(9, 9, 9);
+    font-size: medium;
+    
+}
+.list img{
+    width: 200px;
+    height: 90px;
+}
+
+.lists ul{
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(71, 71, 71);
+}
+
+.lists p{
+    font-size: 30px;
+    
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img02{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.logz img{
+    width: 170px;
+    height: 60px;
+}
+.logzzz img{
+    width:  40px;
+    height: 40px;
+}
+
+.logz{
+    display: inline;
+}
+
+.logzz{
+    width: 300px;
 }
