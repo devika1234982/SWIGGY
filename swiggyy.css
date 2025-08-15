@@ -490,3 +490,122 @@ padding-right: 10px;
 
     
 }
+
+
+.dinemain{
+    width:100%;
+    height: 700px;
+    box-sizing: border-box;
+       padding-left: 60px;
+       padding-top: 50px;
+       display: flex;
+       padding-right: 60px;
+       justify-content: space-around;
+       
+}
+
+.dines{
+    width: 550px;
+    height: 550px;
+     border: 1px solid rgb(252, 250, 250);
+     border-radius:15px;
+    background-color: rgb(235, 231, 231);
+    padding-bottom: 20px;
+ 
+}
+
+.dinetop h6{
+    font-size: 25px;
+    font-family: sans-serif;
+padding-left: 20px;}
+
+.dinetop2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.top2{
+    display: flex;
+}
+
+.top2 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.dinebottom{
+     padding-left: 20px;
+    padding-right: 20px;
+
+}
+.dine1{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    color: rgb(93, 92, 92);
+    
+}
+
+.dine2{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(93, 92, 92);
+}
+
+.table{
+    font-family: sans-serif;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border:none ;
+    background-color: rgb(206, 206, 206);
+}
+
+.table img{
+    width:10px;
+    height:20px;
+padding-top: 10px;}
+    
+
+.table p{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    color: rgb(93, 92, 92);
+}
+
+
+.offers{
+    width:300px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border:none;
+    background-color: rgb(143, 201, 174);
+    color: rgb(22, 96, 65);
+    border-radius: 10px;
+margin-top: 10px;
+
+}
+
+.extra{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(22, 2, 62);
+    padding-top: 15px;
+    
+}
+
+
+.dinehead{
+    font-size: 35px;
+    font-family: sans-serif;
+padding-left: 100px;
+}
