@@ -5,7 +5,8 @@
 
 .main{
     width:100%;
-    height:100vh;    
+    height:100vh; 
+    box-sizing: border-box;   
 }
 
 .bgcolor{
@@ -230,6 +231,7 @@ border:1px solid white;
     font-size: 40px;
     padding-left:350px;
     padding-top: 80px;
+     box-sizing: border-box;
 
 
    
@@ -321,6 +323,8 @@ padding-right: 10px;
     font-family: sans-serif;
     font-size: 40px;
     padding-left:350px;
+    box-sizing: border-box;
+    
    
     padding-bottom: 10px;
 
@@ -402,60 +406,87 @@ padding-right: 10px;
 
 
 
+
 .list{
-    width: full;
-    background-color: rgb(218, 218, 218);
+    width:100%;
+    height:600px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 60px;
-    gap: 20px;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing:border-box;
+
+}
+
+.imgtext p{
+    font-size: 20px;
     font-family: sans-serif;
-    color: rgb(9, 9, 9);
-    font-size: medium;
-    
-}
-.list img{
-    width: 200px;
-    height: 90px;
-}
-
-.lists ul{
-    font-size: 25px;
-    line-height: 30px;
-    color: rgb(71, 71, 71);
-}
-
-.lists p{
-    font-size: 30px;
-    
+    padding-top: 15px;
 }
 
 .lists{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.img02{
-    display: flex;
+     display: flex;
     flex-direction: column;
     gap: 20px;
-
-}
-.logz img{
-    width: 170px;
-    height: 60px;
-}
-.logzzz img{
-    width:  40px;
-    height: 40px;
 }
 
-.logz{
-    display: inline;
+.lists p{
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.lists ul{
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(71, 71, 71);
+    padding-left: 20px;
+    font-family: sans-serif;
+  
+
+    
 }
 
-.logzz{
-    width: 300px;
+
+
+.icons{
+
+ word-spacing: 10px;
+}
+
+.icons img{
+        padding-top: 20px;
+        width:30px;
+        height: 30px;
+}
+
+.download{
+    width: 100%;
+    height: 250px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right: 50px;
+   
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-top: 55px;
+   
+}
+  
+.img{
+    width: 600px;
+    height: 100px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    
+
+    
 }
